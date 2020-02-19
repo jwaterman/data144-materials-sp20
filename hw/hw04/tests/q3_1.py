@@ -6,12 +6,12 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> prof_names.num_columns
+          >>> player_names.num_columns
           2
-          >>> prof_names.num_rows
-          71
-          >>> prof_names.labels[1]
-          'faculty'
+          >>> player_names.num_rows
+          5
+          >>> player_names.labels[1]
+          'name'
           """,
           'hidden': False,
           'locked': False

@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> type(biggest_range_dept) == str
+          >>> type(biggest_range_position) == str
           True
           """,
           'hidden': False,
